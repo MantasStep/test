@@ -1,0 +1,181 @@
+.card
+{
+    background-color: white;
+    border: 1px solid #333;
+    border-radius: .5rem;
+    padding: .5rem;
+    max-width: 600px;
+    margin: 15px auto;
+    display: none;
+}
+.form-group
+{
+    line-height: 2;
+    margin: 5px 0;
+}
+.form-group:last-child
+{
+    margin: 0;
+}
+.form-group > label
+{
+    font-size: 17px;
+    color: #333; 
+}
+.form-group > input
+{
+    border: 1px solid #e5e5e5;
+    border-radius: .25em;
+    font-size: 1rem;
+    padding: .25em;
+    width: 100%;
+}
+.form-group-trumpi
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 10px;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+.form-group-trumpi:last-child
+{
+    margin: 0;
+}
+.form-group-trumpi > label
+{
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+.form-group-trumpi > input
+{
+    border: 1px solid #ececec;
+    padding: 5px;
+}
+.title
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+.header
+{
+    line-height: 2;
+}
+title-footer-text 
+{
+    padding: 0 0 15px 0;
+}
+h1.title 
+{
+    font-size: 32px;
+    margin: 10px 0 0 0;
+}
+.info
+{
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+    padding-left: 30px;
+    color: gray;
+}
+ .card.active
+{
+    display: block;
+} 
+textarea
+{
+    resize: vertical;
+    min-height: 200px;
+    width: 100%;
+}
+input, textarea
+{
+    outline: none;
+    border: 1px solid #ddd;
+}
+input:focus, textarea:focus
+{
+    box-shadow: 0 0 4px rgba(121, 124, 255, 0.5);
+    border: 1px solid #ddd;
+}
+input[type="radio"]
+{
+    margin: 6px;
+}
+.priedas
+{
+    position: absolute;
+    right: 170px;
+    padding-top: 31px;
+    color: gray;
+}
+.ilgas_priedas
+{
+    position: absolute;
+    right: 150px;
+    padding-top: 31px;
+    color: gray;
+}
+.trumpas_priedas
+{
+    position: absolute;
+    color: gray;
+}
+.trumpi_inputs
+{
+    border: 1px solid #cfcfcf;
+    border-radius: .25em;
+    font-size: 1rem;
+    width: 50%;
+    padding: 0 5px;
+}
+.stori
+{
+    font-weight: 600;
+}
+button[type="button"] 
+{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.rekomenduojama_galia 
+{
+    background-color: white;
+    padding: 1.5rem;
+    max-width: 450px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    visibility: hidden;
+}
+.galia_tekstas 
+{
+    max-width: 50%;
+    flex-direction: column;
+    position: relative;
+    text-align: left;
+    font-size: 95%;
+    color: #a7a7a7;
+    font-weight: 100;
+}
+.galia 
+{
+    font-size: 250%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    color: rgb(70, 179, 142);
+    font-weight: 700;
+}
+card active header
+{
+    margin-bottom: 25px;
+}
